@@ -1,0 +1,48 @@
+.divider {
+    border-top: 1px solid #fff;
+    opacity: 0.2;
+}
+
+.footer h1 {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    opacity: 0.75;
+}
+
+.icon-container {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+
+.icon-container:hover {
+    transform: scale(1.1);
+}
+
+.azraqz-logo {
+    object-fit: cover;
+}
+
+.footer a p:hover {
+    opacity: 0.5;
+}
+
+.footer a h1:hover {
+    opacity: 0.5;
+}
