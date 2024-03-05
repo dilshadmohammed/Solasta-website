@@ -17,7 +17,7 @@ const Hero = () => {
         background: `url(${heroBg}) no-repeat center center/cover`,
       }}
     >
-      <div className="container mx-auto pb-20">
+      <div className="container mx-auto pb-20 h-lvh">
         <div className="h-fit flex flex-col">
           <div className="">
             <div className="container max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 justify-center items-center mt-6 px-8 pb-12 lg:pb-32">

@@ -40,13 +40,13 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="sticky top-0 z-40 bg-[#000000] bg-opacity-30"
+        className="sticky top-0 z-40 bg-[#ffffff] bg-opacity-30"
         style={{
-          backdropFilter: "blur(20px)",
+          backdropFilter: "blur(10px)",
         }}
       >
         <div
-          className={`container max-w-screen-xl mx-auto flex justify-between items-center w-full text-white text-lg px-4`}
+          className={`container max-w-screen-xl mx-auto flex justify-between items-center w-full text-solasta-black text-lg px-4`}
         >
           <Link to="/" onClick={() => handleScrollToSection("hero")}>
             <img
@@ -64,7 +64,7 @@ const Navbar = () => {
                 key={item.id}
                 to={item.link}
                 onClick={() => handleScrollToSection(item.sectionId)}
-                className={`p-1 hover:text-[#8EFF09] rounded-xl px-6 cursor-pointer duration-300 `}
+                className={`p-1 hover:text-karma-green rounded-xl px-6 cursor-pointer duration-300 `}
               >
                 {item.text}
               </NavLink>
