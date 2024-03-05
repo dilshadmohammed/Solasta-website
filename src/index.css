@@ -40,7 +40,7 @@ body {
   font-weight: 700;
   font-size: 8rem;
   /* gradient 95fe1a -> cffe97 */
-  background: linear-gradient(to right, #7f553b 0%, #493528 100%);
+  background: linear-gradient(to right, #ffe3c4 0%, rgb(253, 202, 168) 100%);
   display: inline-block;
   background-clip: text;
   -webkit-background-clip: text;

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import kmct_logo from "../../assets/kmct-logo.svg";
+import nssceLogo from "../../assets/nssce_logo_full_white.svg"
 import azraqz_logo from "../../assets/azraqz-logo.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -28,17 +28,14 @@ function Footer() {
           <a href="">
             <p>Sponsors</p>
           </a>
-          <a href="">
-            <p>Proshows</p>
-          </a>
           <a href="#workshops">
             <p>Worskhops</p>
           </a>
           <a href="#events">
             <p>Events</p>
           </a>
-          <Link to="https://maps.app.goo.gl/S9Q6vhUcStcXADbj7">
-            <a href="https://maps.app.goo.gl/S9Q6vhUcStcXADbj7">
+          <Link to="https://maps.app.goo.gl/CvDBUQgwp224vggz9">
+            <a href="https://maps.app.goo.gl/CvDBUQgwp224vggz9">
               <p>College MAP</p>
             </a>
           </Link>
@@ -64,11 +61,6 @@ function Footer() {
           <a href="">
             <p>About karma</p>
           </a>
-          <Link to="/login">
-            <a href="">
-              <p>Ambassador Login</p>
-            </a>
-          </Link>
           <Link to="/l/contact" target="_blank">
             <p>Contact us</p>
           </Link>
@@ -86,7 +78,7 @@ function Footer() {
       <hr className="w-full max-w-screen-xl divider" />
       <div className="flex flex-col flex-hidden sm:flex-row gap-8 justify-between items-center container max-w-screen-xl mb-8 mt-8">
         <div className="flex justify-center lg:justify-start ">
-          <img src={kmct_logo} alt="karma" className="md:w-auto w-[100px] h-[110px]" />
+          <img src={nssceLogo} alt="karma" className="md:w-auto w-[90px] h-[90px]" />
         </div>
         <div className="flex flex-wrap justify-center">
           <Link to="/terms">
