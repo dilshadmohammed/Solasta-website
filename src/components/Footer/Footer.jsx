@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import nssceLogo from "../../assets/nssce_logo_full_white.svg"
-import azraqz_logo from "../../assets/azraqz-logo.svg";
+import stacWhiteLogo from "../../assets/stac-white-logo.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -15,25 +15,20 @@ import {
 import "./Footer.css";
 
 function Footer() {
+
   return (
     <footer className="flex flex-col items-center p-4 footer">
       <div className="container max-w-screen-xl m-4 mb-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 w-full justify-between gap-10">
         <div className="">
-          <a href="">
+          <Link to="/">
             <h1>Home</h1>
-          </a>
+          </Link>
           <a href="">
             <p>Meet the team</p>
           </a>
-          <a href="">
+          <Link to="/sponsors">
             <p>Sponsors</p>
-          </a>
-          <a href="#workshops">
-            <p>Worskhops</p>
-          </a>
-          <a href="#events">
-            <p>Events</p>
-          </a>
+          </Link>
           <Link to="https://maps.app.goo.gl/CvDBUQgwp224vggz9">
             <a href="https://maps.app.goo.gl/CvDBUQgwp224vggz9">
               <p>College MAP</p>
@@ -58,17 +53,20 @@ function Footer() {
           <Link to="/">
             <p>Event Home</p>
           </Link>
-          <a href="">
-            <p>About karma</p>
-          </a>
+          <Link to="/l/about-college" target="_blank">
+            <p>About College</p>
+          </Link>
+          <Link to="/l/about-solasta" target="_blank">
+            <p>About Solasta</p>
+          </Link>
           <Link to="/l/contact" target="_blank">
             <p>Contact us</p>
           </Link>
         </div>
         <div className="flex flex-col items-center sm:col-span-3 md:col-span-1">
           <p className="font-sans uppercase">Powered By</p>
-          <a href="https://www.instagram.com/tm_azraqz/">
-            <img src={azraqz_logo} alt="azraqz" className="w-[171px] h-32 azraqz-logo" />
+          <a href="#">
+            <img src={stacWhiteLogo} alt="stac-logo" className="md:w-36 w-24" />
           </a>
           <p className="text-3xl font-orbitron tracking-wide font-bold text-white">
             2020-2024
@@ -78,7 +76,7 @@ function Footer() {
       <hr className="w-full max-w-screen-xl divider" />
       <div className="flex flex-col flex-hidden sm:flex-row gap-8 justify-between items-center container max-w-screen-xl mb-8 mt-8">
         <div className="flex justify-center lg:justify-start ">
-          <img src={nssceLogo} alt="karma" className="md:w-auto w-[90px] h-[90px]" />
+          <img src={nssceLogo} alt="nssce" className="md:w-48 w-28" />
         </div>
         <div className="flex flex-wrap justify-center">
           <Link to="/terms">
@@ -99,14 +97,14 @@ function Footer() {
         <div className="flex">
           <a
             className="icon-container"
-            href="https://whatsapp.com/channel/0029VaKr9mo84OmKKDxANc0x"
+            href="#"
           >
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
-          <a className="icon-container" href="https://www.youtube.com/@karmakmct7265">
+          <a className="icon-container" href="#">
             <FontAwesomeIcon icon={faYoutube} />
           </a>
-          <a className="icon-container" href="https://www.instagram.com/karmakmct/">
+          <a className="icon-container" href="#">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>

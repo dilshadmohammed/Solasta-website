@@ -35,10 +35,6 @@
     transform: scale(1.1);
 }
 
-.azraqz-logo {
-    object-fit: cover;
-}
-
 .footer a p:hover {
     opacity: 0.5;
 }

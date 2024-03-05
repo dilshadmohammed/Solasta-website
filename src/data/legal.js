@@ -22,11 +22,20 @@ const legalPages = {
   "contact": {
     title: "Contact Us",
     desc: [
-      "Phone   : +91 9446 179 313, +91 8075 414 518",
-      "Email   : karmakmct24@gmail.com",
-      "Address : KMCT College of Engineering, Kallanthod, NITC - P.O, Kozhikode - 673601",
+      "Phone   : +91 8330 056 017, +91 9400 673 090, +91 9562 594 778",
+      "Address : NSS College of Engineering, Akathethara, Palakkad - 678008",
     ],
   },
+  "about-college": {
+    title: "About the College",
+    desc: ["NSS College of Engineering Palakkad is one of the earliest engineering educational institutions in Kerala, India. The college was established in 1960 by Nair Service Society under the leadership of the late BharathaKesari Mannathu Padmanabhan. The college is affiliated to the Kerala Technological University."
+      ],
+  },
+  "about-solasta": {
+    title: "About Solasta",
+    desc: ["Solasta, the dynamic tech fest of NSSCE's Computer Science Department, unfolds over three action-packed days. With a spectrum of technical challenges, thrilling hackathons, brainteasing quizzes, and engaging games, Solasta is a celebration of innovation and skill. Open to all departments, Solasta is a gateway to an exhilarating convergence of technology and creativity."
+      ],
+  }
 };
 
 export default legalPages;

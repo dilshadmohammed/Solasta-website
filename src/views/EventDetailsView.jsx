@@ -6,8 +6,6 @@ import FilledButton from "../components/FilledButton";
 
 import events from "../data/events";
 import workshops from "../data/workshops";
-import games from "../data/games";
-import competitions from "../data/competitions";
 
 const EventDetailsView = ({ type }) => {
   const { id } = useParams();
@@ -23,14 +21,8 @@ const EventDetailsView = ({ type }) => {
     case programType.EVENT:
       list = events;
       break;
-    case programType.GAME:
-      list = games;
-      break;
     case programType.WORKSHOP:
       list = workshops;
-      break;
-    case programType.COMPETITION:
-      list = competitions;
       break;
   }
 

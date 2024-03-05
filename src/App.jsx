@@ -10,6 +10,7 @@ import StartingSoon from "./views/StartingSoon";
 import LegalPage from "./views/home/LegalPage";
 import CancelPage from "./views/home/cancellation";
 import Terms from "./views/home/terms";
+import Sponsors from "./views/home/Sponsors";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
         element: <EventDetailsView type={programType.COMPETITION} />,
       },
       { path: "tickets", element: <Tickets /> },
+      { path: "sponsors", element: <Sponsors/> },
       { path: "/l/:slug", element: <LegalPage /> },
       { path: "cancellation", element: <CancelPage /> },
       { path: "terms", element: <Terms /> },

@@ -26,7 +26,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -38,7 +37,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: 700;
-  font-size: 8rem;
+  font-size: 5rem;
   /* gradient 95fe1a -> cffe97 */
   background: linear-gradient(to right, #ffe3c4 0%, rgb(253, 202, 168) 100%);
   display: inline-block;
