@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const Home = () => {
   useEffect(() => {
-    window.document.title = "KARMA'24";
+    window.document.title = "SOLASTA";
     window.scrollTo(0, 0);
   }, []);
 

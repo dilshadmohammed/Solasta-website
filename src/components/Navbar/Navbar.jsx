@@ -32,9 +32,11 @@ const Navbar = () => {
     }
   };
 
+
   const navItems = [
     { id: 1, text: "Events", link: "/", sectionId: "events" },
     { id: 2, text: "Workshops", link: "/", sectionId: "workshops" },
+    { id: 3, text: "Sponsors", link: "/sponsors", sectionId: "sponsors"}
   ];
 
   return (
@@ -44,6 +46,7 @@ const Navbar = () => {
         style={{
           backdropFilter: "blur(10px)",
         }}
+        
       >
         <div
           className={`container max-w-screen-xl mx-auto flex justify-between items-center w-full text-karma-green  text-lg px-4`}
