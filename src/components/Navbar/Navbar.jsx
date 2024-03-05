@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import KarmaLogo from "../../assets/karma-logo.svg";
+import solastaLogo from "../../assets/solasta-logo.svg"
 import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -40,21 +40,21 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="sticky top-0 z-40 bg-[#ffffff] bg-opacity-30"
+        className="sticky top-0 z-40 bg-[#9D8B77] bg-opacity-30"
         style={{
           backdropFilter: "blur(10px)",
         }}
       >
         <div
-          className={`container max-w-screen-xl mx-auto flex justify-between items-center w-full text-solasta-black text-lg px-4`}
+          className={`container max-w-screen-xl mx-auto flex justify-between items-center w-full text-karma-green  text-lg px-4`}
         >
           <Link to="/" onClick={() => handleScrollToSection("hero")}>
             <img
-              src={KarmaLogo}
+              src={solastaLogo}
               className={`p-2 lg:py-4 transition-all duration-500 ease-in-out h-16 w-16${
                 scrollBackground ? "" : "transform scale-125 w-24"
               }`}
-              alt="KarmaLogo"
+              alt="SolastaLogo"
             />
           </Link>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
                 key={item.id}
                 to={item.link}
                 onClick={() => handleScrollToSection(item.sectionId)}
-                className={`p-1 hover:text-karma-green rounded-xl px-6 cursor-pointer duration-300 `}
+                className={`p-1 hover:text-white rounded-xl px-6 cursor-pointer duration-300 `}
               >
                 {item.text}
               </NavLink>
@@ -86,7 +86,7 @@ const Navbar = () => {
         }}
       >
         <Link to="/" onClick={handleNav}>
-          <img src={KarmaLogo} className="h-16 ml-6 mt-4" alt="KarmaLogo" />
+          <img src={solastaLogo} className="h-16 ml-6 mt-4" alt="SolastaLogo" />
         </Link>
         <ul className="flex flex-col mt-8">
           {navItems.map((item) => (

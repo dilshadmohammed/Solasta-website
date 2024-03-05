@@ -19,7 +19,7 @@ export default {
       },
       colors: {
         "karma-blue": "#d8a66e",
-        "karma-green": "#7f553b",
+        "karma-green": "#ffe3c4",
         "solasta-black": "#000101"
       },
     },
