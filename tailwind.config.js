@@ -18,8 +18,8 @@ export default {
         retroTeam: ["RetroTeam", "sans-serif"],
       },
       colors: {
-        "karma-blue": "#09d3ff",
-        "karma-green": "#8EFF09",
+        "karma-blue": "#d8a66e",
+        "karma-green": "#7f553b",
       },
     },
   },
