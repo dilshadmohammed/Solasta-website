@@ -5,7 +5,7 @@ const Hero = () => {
 
   return (
     <section>
-      <div className="container mx-auto pb-20 h-lvh">
+      <div className="container mx-auto pb-20">
         <div className="h-fit flex flex-col">
           <div className="">
             <div className="container flex flex-col lg:flex-row max-w-screen-xl mx-auto justify-evenly items-center mt-24 pt-14 px-8 pb-12 lg:pb-32">

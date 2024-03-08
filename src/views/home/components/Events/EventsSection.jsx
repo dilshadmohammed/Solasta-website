@@ -16,7 +16,7 @@ import "./EventsSection.css";
 const EventsSection = () => {
   return (
     <>
-      <div id="events" className="container max-w-screen-xl mx-auto pt-28 pb-16 px-4">
+      <div id="events" className="container max-w-screen-xl mx-auto lg:pt-28 lg:pb-16 px-4">
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
