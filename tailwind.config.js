@@ -16,10 +16,11 @@ export default {
         inversionz: ["Inversionz", "sans-serif"],
         orbitron: ["Orbitron", "sans-serif"],
         retroTeam: ["RetroTeam", "sans-serif"],
+        Valorax: ["Valorax","sans-serif"],
       },
       colors: {
-        "karma-blue": "#d8a66e",
-        "karma-green": "#ffe3c4",
+        "karma-blue": "#08deff",
+        "karma-green": "#de02de",
         "solasta-black": "#000101"
       },
     },

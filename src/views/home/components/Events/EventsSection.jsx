@@ -16,13 +16,13 @@ import "./EventsSection.css";
 const EventsSection = () => {
   return (
     <>
-      <div id="workshops" className="container max-w-screen-xl mx-auto pt-28 pb-16 px-4">
+      <div id="events" className="container max-w-screen-xl mx-auto pt-28 pb-16 px-4">
         <motion.h2
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ margin: "20px", amount: "all" }}
-          className="big-green-title mb-4"
+          className="mb-4 font-Valorax text-6xl text-cyan-300"
         >
           Events
         </motion.h2>

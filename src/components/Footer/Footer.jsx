@@ -17,11 +17,11 @@ import "./Footer.css";
 function Footer() {
 
   return (
-    <footer className="flex flex-col items-center p-4 footer">
+    <footer className="flex flex-col items-center p-4 footer text-white font-medium">
       <div className="container max-w-screen-xl m-4 mb-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 w-full justify-between gap-10">
         <div className="">
           <Link to="/">
-            <h1>Home</h1>
+            <p>Home</p>
           </Link>
           {/* <a href="">
             <p>Meet the team</p>
@@ -62,23 +62,23 @@ function Footer() {
         </div>
         <div className="hidden md:block"></div>
         <div className="hidden md:flex flex-col items-center md:col-span-1">
-          <p className="font-sans uppercase">Powered By</p>
-          <a href="#">
+          <p className="font-sans uppercase text-white text-sm">Powered By</p>
+          <a href="#"> 
             <img src={stacWhiteLogo} alt="stac-logo" className="md:w-36 w-24" />
           </a>
-          <p className="text-3xl font-orbitron tracking-wide font-bold text-white">
-            2020-2024
+          <p className="font-orbitron tracking-wide font-bold text-white text-sm">
+            2024
           </p>
         </div>
       </div>
 
       <div className="flex flex-col items-center md:hidden">
-          <p className="font-sans uppercase">Powered By</p>
+          <p className="font-sans uppercase text-white text-sm">Powered By</p>
           <a href="#">
             <img src={stacWhiteLogo} alt="stac-logo" className="md:w-36 w-24" />
           </a>
-          <p className="text-3xl font-orbitron tracking-wide font-bold text-white">
-            2020-2024
+          <p className="text-sm font-orbitron tracking-wide font-bold text-white">
+            2024
           </p>
         </div>
 
@@ -88,20 +88,20 @@ function Footer() {
         <div className="flex justify-center lg:justify-start ">
           <img src={nssceLogo} alt="nssce" className="md:w-48 w-28" />
         </div>
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center  text-white font-light">
           <Link to="/terms">
-            <h1 className="px-[20px]">Terms</h1>
+            <p className="px-[20px]">Terms</p>
           </Link>
 
           <Link to="/l/privacy-policy">
-            <h1 className="px-[20px]">Privacy</h1>
+            <p className="px-[20px]">Privacy</p>
           </Link>
           <Link to="/l/shipping-and-delivery">
-            <h1 className="px-[20px]">Shipping & Delivery</h1>
+            <p className="px-[20px]">Shipping & Delivery</p>
           </Link>
 
           <Link to="/cancellation">
-            <h1 className="px-[20px]">Refund & Cancellation Policy</h1>
+            <p className="px-[20px]">Refund & Cancellation Policy</p>
           </Link>
         </div>
         <div className="flex">
@@ -114,7 +114,7 @@ function Footer() {
           <a className="icon-container" href="#">
             <FontAwesomeIcon icon={faYoutube} />
           </a>
-          <a className="icon-container" href="#">
+          <a className="icon-container" href="https://www.instagram.com/solasta_24_/">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>

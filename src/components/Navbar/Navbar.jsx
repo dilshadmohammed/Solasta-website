@@ -41,14 +41,14 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="sticky top-0 z-40 bg-[#9D8B77] bg-opacity-30"
+        className="sticky top-0 z-40 bg-[#150b3f] bg-opacity-30"
         style={{
           backdropFilter: "blur(10px)",
         }}
         
       >
         <div
-          className={`container max-w-screen-xl mx-auto flex justify-between items-center w-full text-karma-green  text-lg px-4`}
+          className={`container flex justify-between items-center w-full text-cyan-300  text-lg px-4`}
         >
           <Link to="/" onClick={() => handleScrollToSection("hero")}>
             <img
@@ -66,7 +66,7 @@ const Navbar = () => {
                 key={item.id}
                 to={item.link}
                 onClick={() => handleScrollToSection(item.sectionId)}
-                className={`p-1 hover:text-white rounded-xl px-6 cursor-pointer duration-300 `}
+                className={`p-1 hover:text-cyan-50 rounded-xl px-6 cursor-pointer duration-300 `}
               >
                 {item.text}
               </NavLink>
@@ -98,7 +98,7 @@ const Navbar = () => {
                 handleNav();
               }}
               to={item.link}
-              className={`p-4 hover:text-karma-green text-2xl rounded-xl px-6 cursor-pointer duration-300 `}
+              className={`p-4 hover:text-cyan-50 text-cyan-300 text-2xl rounded-xl px-6 cursor-pointer duration-300 `}
             >
               {item.text}
             </NavLink>
