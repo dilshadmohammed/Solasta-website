@@ -18,7 +18,7 @@ const Hero = () => {
                 <h1 className="lg:text-9xl text-7xl font-Valorax text-cyan-500 ">
                   SOLASTA
                 </h1>
-                <p className="my-6 mt-2 md:mt-6 font-inversionz text-center text-3xl uppercase font-medium tracking-tighter">
+                <p className="my-6 mt-2 lg:mt-6 font-inversionz text-center text-3xl uppercase font-medium tracking-tighter">
                   what goes around comes around
                 </p>
               </motion.div>

@@ -18,7 +18,7 @@ function Footer() {
 
   return (
     <footer className="flex flex-col items-center p-4 footer text-white font-medium">
-      <div className="container max-w-screen-xl m-4 mb-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 w-full justify-between gap-10">
+      <div className="container max-w-screen-xl m-4 mb-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 lg:grid-cols-4 w-full justify-between gap-10">
         <div className="">
           <Link to="/">
             <p>Home</p>
@@ -60,11 +60,11 @@ function Footer() {
             <p>Contact us</p>
           </Link>
         </div>
-        <div className="hidden md:block"></div>
-        <div className="hidden md:flex flex-col items-center md:col-span-1">
+        <div className="hidden lg:block"></div>
+        <div className="hidden lg:flex flex-col items-center lg:col-span-1">
           <p className="font-sans uppercase text-white text-sm">Powered By</p>
           <a href="#"> 
-            <img src={stacWhiteLogo} alt="stac-logo" className="md:w-36 w-24" />
+            <img src={stacWhiteLogo} alt="stac-logo" className="lg:w-36 w-24" />
           </a>
           <p className="font-orbitron tracking-wide font-bold text-white text-sm">
             2024
@@ -72,10 +72,10 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center md:hidden">
+      <div className="flex flex-col items-center lg:hidden">
           <p className="font-sans uppercase text-white text-sm">Powered By</p>
           <a href="#">
-            <img src={stacWhiteLogo} alt="stac-logo" className="md:w-36 w-24" />
+            <img src={stacWhiteLogo} alt="stac-logo" className="lg:w-36 w-24" />
           </a>
           <p className="text-sm font-orbitron tracking-wide font-bold text-white">
             2024
@@ -86,7 +86,7 @@ function Footer() {
       <hr className="w-full max-w-screen-xl divider" />
       <div className="flex flex-col flex-hidden sm:flex-row gap-8 justify-between items-center container max-w-screen-xl mb-8 mt-8">
         <div className="flex justify-center lg:justify-start ">
-          <img src={nssceLogo} alt="nssce" className="md:w-48 w-28" />
+          <img src={nssceLogo} alt="nssce" className="lg:w-48 w-28" />
         </div>
         <div className="flex flex-wrap justify-center  text-white font-light">
           <Link to="/terms">
