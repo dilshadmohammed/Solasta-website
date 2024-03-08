@@ -1,32 +1,13 @@
 import React, { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
-import programType from "../programType";
 import FilledButton from "../components/FilledButton";
 
 import events from "../data/events";
-import workshops from "../data/workshops";
-
-const EventDetailsView = ({ type }) => {
+const EventDetailsView = () => {
   const { id } = useParams();
-  const navigate = useNavigate();
 
-  // const item = isWorkshop
-  //   ? workshops.find((workshop) => workshop.id === id)
-  //   : events.find((event) => event.id === id);
-
-  let list;
-
-  switch (type) {
-    case programType.EVENT:
-      list = events;
-      break;
-    case programType.WORKSHOP:
-      list = workshops;
-      break;
-  }
-
-  const item = list.find((e) => e.id === id);
+  const item = events.find((e) => e.id === id);
 
   const handleRegisterClick = () => {
     if (item.registerLink) {

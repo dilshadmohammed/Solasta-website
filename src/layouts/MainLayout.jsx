@@ -1,7 +1,5 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
-
-import heroBg from "../assets/hero-bg.svg";
 import fullBg from "../assets/full-bg.svg"
 import Footer from "../components/Footer/Footer";
 
