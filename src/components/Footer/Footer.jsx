@@ -60,8 +60,8 @@ function Footer() {
             <p>Contact us</p>
           </Link>
         </div>
-        <div></div>
-        <div className="flex flex-col items-center sm:col-span-3 md:col-span-1">
+        <div className="hidden md:block"></div>
+        <div className="hidden md:flex flex-col items-center md:col-span-1">
           <p className="font-sans uppercase">Powered By</p>
           <a href="#">
             <img src={stacWhiteLogo} alt="stac-logo" className="md:w-36 w-24" />
@@ -71,6 +71,18 @@ function Footer() {
           </p>
         </div>
       </div>
+
+      <div className="flex flex-col items-center md:hidden">
+          <p className="font-sans uppercase">Powered By</p>
+          <a href="#">
+            <img src={stacWhiteLogo} alt="stac-logo" className="md:w-36 w-24" />
+          </a>
+          <p className="text-3xl font-orbitron tracking-wide font-bold text-white">
+            2020-2024
+          </p>
+        </div>
+
+
       <hr className="w-full max-w-screen-xl divider" />
       <div className="flex flex-col flex-hidden sm:flex-row gap-8 justify-between items-center container max-w-screen-xl mb-8 mt-8">
         <div className="flex justify-center lg:justify-start ">
