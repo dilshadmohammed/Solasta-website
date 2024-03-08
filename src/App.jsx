@@ -4,8 +4,6 @@ import Home from "./views/home/Home";
 import MainLayout from "./layouts/MainLayout";
 import EventDetailsView from "./views/EventDetailsView";
 import NotFound from "./views/NotFound";
-import programType from "./programType";
-import Tickets from "./views/Tickets";
 import StartingSoon from "./views/StartingSoon";
 import LegalPage from "./views/home/LegalPage";
 import CancelPage from "./views/home/cancellation";
@@ -21,17 +19,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/not-found", element: <NotFound /> },
       { path: "/stand-by", element: <StartingSoon /> },
-      { path: "events/:id", element: <EventDetailsView type={programType.EVENT} /> },
-      {
-        path: "workshops/:id",
-        element: <EventDetailsView type={programType.WORKSHOP} />,
-      },
-      { path: "games/:id", element: <EventDetailsView type={programType.GAME} /> },
-      {
-        path: "competitions/:id",
-        element: <EventDetailsView type={programType.COMPETITION} />,
-      },
-      { path: "tickets", element: <Tickets /> },
+      { path: "events/:id", element: <EventDetailsView/> },
       { path: "sponsors", element: <Sponsors/> },
       { path: "/l/:slug", element: <LegalPage /> },
       { path: "cancellation", element: <CancelPage /> },

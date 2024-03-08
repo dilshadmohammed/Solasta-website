@@ -35,7 +35,6 @@ const Navbar = () => {
 
   const navItems = [
     { id: 1, text: "Events", link: "/", sectionId: "events" },
-    { id: 2, text: "Workshops", link: "/", sectionId: "workshops" },
     { id: 3, text: "Sponsors", link: "/sponsors", sectionId: "sponsors"}
   ];
 
@@ -54,7 +53,7 @@ const Navbar = () => {
           <Link to="/" onClick={() => handleScrollToSection("hero")}>
             <img
               src={solastaLogo}
-              className={`p-2 lg:py-4 transition-all duration-500 ease-in-out h-16 w-16${
+              className={`p-2 lg:py-4 transition-all duration-500 ease-in-out h-12 w-12 md:h-16 md:w-16 ${
                 scrollBackground ? "" : "transform scale-125 w-24"
               }`}
               alt="SolastaLogo"

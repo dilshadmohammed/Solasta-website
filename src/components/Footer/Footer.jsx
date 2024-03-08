@@ -23,9 +23,9 @@ function Footer() {
           <Link to="/">
             <h1>Home</h1>
           </Link>
-          <a href="">
+          {/* <a href="">
             <p>Meet the team</p>
-          </a>
+          </a> */}
           <Link to="/sponsors">
             <p>Sponsors</p>
           </Link>
@@ -35,7 +35,7 @@ function Footer() {
             </a>
           </Link>
         </div>
-        <div className="">
+        {/* <div className="">
           <a href="">
             <h1>Information</h1>
           </a>
@@ -48,11 +48,8 @@ function Footer() {
           <a href="">
             <p>Support</p>
           </a>
-        </div>
+        </div> */}
         <div className="">
-          <Link to="/">
-            <p>Event Home</p>
-          </Link>
           <Link to="/l/about-college" target="_blank">
             <p>About College</p>
           </Link>
@@ -63,6 +60,7 @@ function Footer() {
             <p>Contact us</p>
           </Link>
         </div>
+        <div></div>
         <div className="flex flex-col items-center sm:col-span-3 md:col-span-1">
           <p className="font-sans uppercase">Powered By</p>
           <a href="#">
