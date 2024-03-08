@@ -17,8 +17,8 @@ import "./Footer.css";
 function Footer() {
 
   return (
-    <footer className="flex flex-col items-center p-4 footer text-white font-medium">
-      <div className="container max-w-screen-xl m-4 mb-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 lg:grid-cols-4 w-full justify-between gap-10">
+    <footer className="flex flex-col items-center justify-center p-4 footer text-white font-medium">
+      <div className="container max-w-screen-xl m-4 mb-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 w-full justify-evenly gap-10">
         <div className="">
           <Link to="/">
             <p>Home</p>
