@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const NotFound = () => {
   useEffect(() => {
-    window.document.title = "Not Found | KARMA'24";
+    window.document.title = "Not Found | SOLASTA";
     window.scrollTo(0, 0);
   }, []);
 

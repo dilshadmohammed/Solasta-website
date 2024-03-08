@@ -1,6 +1,4 @@
 import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import legalPages from "../../data/legal";
 
 const Terms = () => {
   return (

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const StartingSoon = () => {
   useEffect(() => {
-    window.document.title = "Please Stand By | KARMA'24";
+    window.document.title = "Please Stand By | SOLASTA";
     window.scrollTo(0, 0);
   }, []);
 
