@@ -23,19 +23,20 @@ const EventDetailsView = () => {
 
   return (
     <div className="container mx-auto max-w-screen-xl py-20 px-4">
-      <div className="flex justify-between flex-wrap-reverse gap-8 mt-8 items-center">
+      <div className="flex justify-center md:justify-between flex-wrap-reverse gap-8 items-center">
         <div>
-          <h1 className="text-karma-blue font-bold font-retroTeam text-5xl sm:text-7xl">
+          <h1 className="text-karma-blue font-Valorax text-4xl md:text-6xl">
             {item.title}
           </h1>
-          <p className="text-2xl font-retroTeam tracking-wide leading-8">
+          <br />
+          <p className="text-lg font-orbitron tracking-wide leading-8">
             {item.dateTime} <br />
             {item.description ? item.description.map((desc) => <p>{desc}</p>) : null}
           </p>
-          <p className="font-bold font-retroTeam text-3xl mt-4 text-karma-green">
-            {item.prize}
+          <p className="font-bold font-orbitron text-xl md:text-3xl mt-4 text-karma-green">
+            {item.prizes && item.prizes.map((prize)=> <p>{prize}</p>)}
           </p>
-          <p className="font-bold font-retroTeam text-2xl mt-4">Fee: ₹{item.fee}</p>
+          <p className="font-bold font-orbitron text-2xl mt-4">Fee: {item.fee ? `₹${item.fee}` : "Free"}</p>
           <FilledButton text="REGISTER" onClick={handleRegisterClick} />
         </div>
         <img src={item.image} alt="" className="h-72 md:h-[500px] rounded-xl" />
