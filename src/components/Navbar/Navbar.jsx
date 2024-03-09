@@ -54,7 +54,7 @@ const Navbar = () => {
             <img
               src={solastaLogo}
               className={`p-2 lg:py-4 transition-all duration-500 ease-in-out h-12 w-12 md:h-16 md:w-16 ${
-                scrollBackground ? "" : "transform scale-125 w-24"
+                scrollBackground ? "" : "transform scale-125 w-17"
               }`}
               alt="SolastaLogo"
             />
@@ -73,7 +73,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div onClick={handleNav} className="block lg:hidden">
-            {nav ? <AiOutlineClose size={40} /> : <AiOutlineMenu size={40} />}
+            {nav ? <AiOutlineClose size={35} /> : <AiOutlineMenu size={35} />}
           </div>
         </div>
       </div>
