@@ -22,7 +22,7 @@ const EventsSection = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ margin: "20px", amount: "all" }}
-          className="mb-4 font-Valorax text-6xl text-cyan-300"
+          className="mb-4 font-Valorax lg:text-6xl text-4xl text-cyan-300"
         >
           Events
         </motion.h2>
@@ -52,9 +52,9 @@ const EventsSection = () => {
             ))}
           </Swiper>
           {/* Navigation BUttons */}
-          <div className="swiper-button-next">
+          <div className="hidden lg:block swiper-button-next">
           </div>
-          <div className="swiper-button-prev"></div>
+          <div className="hidden lg:block swiper-button-prev"></div>
         </div>
       </div>
     </>

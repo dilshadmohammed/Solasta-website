@@ -15,7 +15,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 0.3 }}
                 className="grid place-items-center mt-12"
               >
-                <h1 className="md:text-9xl text-7xl font-Valorax text-cyan-500 ">
+                <h1 className="md:text-9xl text-6xl font-Valorax text-cyan-500 ">
                   SOLASTA
                 </h1>
                 <p className="my-6 mt-2 md:mt-6 font-inversionz text-center text-3xl uppercase font-medium tracking-tighter">
