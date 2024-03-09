@@ -52,9 +52,9 @@ const EventsSection = () => {
             ))}
           </Swiper>
           {/* Navigation BUttons */}
-          <div className="hidden lg:block swiper-button-next">
+          <div className="swiper-button-next">
           </div>
-          <div className="hidden lg:block swiper-button-prev"></div>
+          <div className="swiper-button-prev"></div>
         </div>
       </div>
     </>
