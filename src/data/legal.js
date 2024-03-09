@@ -4,21 +4,13 @@ const legalPages = {
     title: "Privacy Policy",
     desc: [
       "- This website may collect information such as email and contact number",
-      "- The data is collected via Registration forms. All collected information is solely used for the purpose of tallying and registration for the events of Karma 2024.",
+      "- The data is collected via Registration forms. All collected information is solely used for the purpose of tallying and registration for the events of Solasta 2024.",
       "- This information is confidential and shall not be shared anywhere else",
-      "- By continuing to use the registration forms, you are agreeing with our Privacy policy as well as our Terms and Conditions. You are agreeing to the collection and use of your personal information for the databases of events hosted for Karma 2024.",
-      "- Thanks for visiting our website and have a great time at Karma!",
+      "- By continuing to use the registration forms, you are agreeing with our Privacy policy as well as our Terms and Conditions. You are agreeing to the collection and use of your personal information for the databases of events hosted for Solasta 2024.",
+      "- Thanks for visiting our website and have a great time at Solasta!",
     ],
   },
 
-  "shipping-and-delivery": {
-    title: "Shipping and Delivery",
-    desc: [
-      "- Tickets for both the events and the main programs can be purchased via the Karma Official website as well as on the spot purchase.",
-      "- Tickets booked via website will be given upon confirmation of payment",
-      "- We are not responsible for any errors or misinterpretations on your part.",
-    ],
-  },
   "contact": {
     title: "Contact Us",
     desc: [

@@ -96,10 +96,6 @@ function Footer() {
           <Link to="/l/privacy-policy">
             <p className="px-[20px]">Privacy</p>
           </Link>
-          <Link to="/l/shipping-and-delivery">
-            <p className="px-[20px]">Shipping & Delivery</p>
-          </Link>
-
           <Link to="/cancellation">
             <p className="px-[20px]">Refund & Cancellation Policy</p>
           </Link>
