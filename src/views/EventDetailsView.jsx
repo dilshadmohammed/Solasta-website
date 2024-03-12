@@ -36,7 +36,7 @@ const EventDetailsView = () => {
           <p className="font-bold font-orbitron text-xl md:text-3xl mt-4 text-karma-green">
             {item.prizes && item.prizes.map((prize)=> <p>{prize}</p>)}
           </p>
-          <p className="font-bold font-orbitron text-2xl mt-4">Fee: {item.fee ? `₹${item.fee}` : "Free"}</p>
+          <p className="font-bold font-orbitron text-2xl mt-4">{item.fee ? `Fee: ₹${item.fee}` : "Free"}</p>
           <FilledButton text="REGISTER" onClick={handleRegisterClick} />
         </div>
         <img src={item.image} alt="" className="h-72 md:h-[500px] rounded-xl" />
