@@ -17,9 +17,6 @@ const EventCard = ({ event }) => {
         backgroundPosition: "center",
       }}
     >
-      <h3 className="text-white font-bold font-orbitron text-3xl sm:text-3xl">
-        {event.title}
-      </h3>
     </motion.div>
   );
 };
